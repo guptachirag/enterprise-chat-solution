@@ -1,0 +1,159 @@
+.wc-users {
+  position: fixed;
+  top: 2.7rem;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+  display: block;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid #eee;
+  background-color: #f9f9f9;
+}
+
+.wc-conversations {
+  position: fixed;
+  top: 2.7rem;
+  bottom: 0;
+  z-index: 10000;
+  display: block;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.wc-login {
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 2rem;
+  padding-right: 3rem;
+  border: 1px solid #eee;
+}
+
+.wc-login-button {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.navbar {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.wc-nav-item {
+  color: #ffffff;
+}
+
+.wc-item-header {
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.wc-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.badge {
+  float: right;
+  vertical-align: middle;
+  margin-right: 1rem;
+  margin-top: 0.7rem;
+}
+
+.wc-avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.wc-message {
+  display: inline-block;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.wc-message-time {
+  font-weight: lighter;
+  font-size: 65%;
+}
+
+.wc-message-user-avatar {
+  width: 48px;
+  height: 48px;
+  margin-right: 0.8rem;
+  position: fixed;
+}
+
+.wc-message-text {
+  margin-left: 3.5rem;
+}
+
+.wc-message-user-name {
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+
+.wc-list-item-message {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.wc-list-item-user {
+  border-left: 5px solid #ffffff;
+}
+
+.wc-list-item-user :hover {
+  cursor: pointer;
+}
+
+.wc-list-item-user-active {
+  /* primary color */
+  border-left: 5px solid #007bff;
+  background-color: #ffffff;
+}
+
+.wc-input-message {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem;
+}
+
+.wc-notice {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .wc-main,
+  .wc-input-message {
+    left: 33.3334%;
+  }
+}
+
+@media (min-width: 768px) {
+  .wc-main,
+  .wc-input-message {
+    left: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .wc-main,
+  .wc-input-message {
+    left: 16.6666667%;
+  }
+}
+
+.wc-file {
+  padding: 0;
+}
